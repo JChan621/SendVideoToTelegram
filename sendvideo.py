@@ -16,7 +16,7 @@ api_hash = 'your api hash'
 client = TelegramClient('your telegram session dir', api_id, api_hash)
 client.start(phone = 'your phone',password = 'your password')
 files = os.listdir(PATH)
-print(files)
+#print(files)
 async def prog():
     for file in files:
         if file.startswith('testx'): #A list of videos created and named with testx##3.mov.
